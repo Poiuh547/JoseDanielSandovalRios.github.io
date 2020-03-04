@@ -1,0 +1,151 @@
+html{height: 100%;}
+
+body
+{ font-family: "lucida sans", arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background: #F6F4F0;
+  color: #ffffff;
+  background: url('https://i.imgur.com/6C4tWCA.jpg');
+  background-attachment: fixed;
+}
+
+p
+{ margin: 0px;
+  padding: 0px 0px 16px 0px;
+  line-height: 1.7em;}
+
+h1, h2
+{ font-size: 200%;
+  padding: 7px 0px 5px 0px; 
+  margin: 0px 0px 12px 0px; 
+  font-weight: normal;
+  color: #ffffff;
+  font-family: serif;}
+
+a, a:hover
+{ border-bottom: 1px dotted;
+  color: #ffffff;
+  text-decoration: none;}
+
+a:hover
+{ border-bottom: 1px solid;
+  color: #A4AA04;}
+
+.left
+{ float: left;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 0 auto;}
+
+#main, #logo, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#header
+{ background: url('https://i.imgur.com/i0RYk5a.png') repeat-x;}
+
+#logo
+{ 
+  width: 870px;
+  height: 127px;
+  position: relative;
+  background: transparent no-repeat right;}
+
+
+#logo h1, #logo h2
+{ margin: 0;
+  font-family: "arial", sans-serif;}
+
+#logo h1
+{ font-size: 300%;
+  padding: 22px 0px 0px 0px;
+  color: #777;}
+
+#logo h2
+{ font-size: 200%;
+  padding: 4px 0px 0px 0px;
+  color: #BBB;}
+
+
+
+#site_content
+{ width: 875px;
+  margin-top: 10px;
+  overflow: hidden;} 
+
+.sidebar
+{ float: right;
+  width: 178px;
+  padding: 20px 25px 15px 15px;}
+
+#content
+{ text-align: left;
+  width: 624px;
+  float: left;
+  padding: 20px 10px 15px 0px;}
+
+#footer
+{ width: 100%;
+  font-family: sans-serif;
+  font-size: 90%;
+  height: 80px;
+  padding: 20px 0px 4px 0px;
+  margin-bottom: 20px;
+  text-align: center; 
+  background: #313131;
+  color: #A8AA94;
+  border-top: 4px solid #A4AA04;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+
+#footer a
+{ color: #A8AA94;
+  text-decoration: none;}
+
+
+  nav{
+
+
+  padding: 20px;
+  background: #ffffff;
+  text-align: center; 
+  font-family: Arial;
+  border-radius: 20px 20px 20px 20px;
+  margin: 100px;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+
+  
+
+}
+
+nav li{
+
+  font-size: 15px;
+  display: inline;
+  color: #111111;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+
+}
+
+nav li:hover{
+
+  background: #000000;
+  cursor: pointer;
+  box-shadow: inset 0px -1px 6px 3px rgba(0,0,0,0.27);
+  background: #ffffff;
+  color: black;
+
+
+}
